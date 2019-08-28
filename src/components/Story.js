@@ -25,7 +25,7 @@ const Story = (props)=>{
     useEffect(() => {
         const callAPI = async ()=>{
             try {
-                const response = await axios.get("/data/"+story);
+                const response = await axios.get("https://shrouded-sands-99444.herokuapp.com/data/"+story);
                 setState({
                     ...state,
                     chapters: response.data.chapters

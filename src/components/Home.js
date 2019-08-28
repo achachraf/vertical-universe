@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     try {
       const callAPI = async () => {
-        const response = await axios.get("/data");
+        const response = await axios.get("https://shrouded-sands-99444.herokuapp.com/data");
         setState({
           ...state,
           stories: response.data.stories

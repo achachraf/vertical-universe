@@ -29,7 +29,7 @@ const Chapter = ({match:{params:{story,chapter}}}) => {
     const callAPI = async () => {
       
       try {
-        const response = await axios.get("/data/" + story + "/" + chapter);
+        const response = await axios.get("https://shrouded-sands-99444.herokuapp.com/data/" + story + "/" + chapter);
         
         if (response.status === 404) {
           setState({
