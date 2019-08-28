@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afe9e38b8a6263f2c90432f7d54d5894",
+    "revision": "a3818bea11931a276c84bced2e8fde88",
     "url": "/vertical-universe/index.html"
   },
   {
-    "revision": "9f0b7d9681d67a75816a",
+    "revision": "02edba2960702579913a",
     "url": "/vertical-universe/static/css/main.524c3f75.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vertical-universe/static/js/2.829840e0.chunk.js"
   },
   {
-    "revision": "9f0b7d9681d67a75816a",
-    "url": "/vertical-universe/static/js/main.190f158f.chunk.js"
+    "revision": "02edba2960702579913a",
+    "url": "/vertical-universe/static/js/main.49124805.chunk.js"
   },
   {
     "revision": "6830bb7a69b01aea8c27",
